@@ -1,9 +1,14 @@
 # CapacitorHttp
 
-The Capacitor Http API provides native http support via patching `fetch` and `XMLHttpRequest` to use native libraries. It also provides helper methods for native http requests without the use of `fetch` and `XMLHttpRequest`. This plugin is bundled with `@capacitor/core`.
+* Capacitor Http API
+  * -- provides
+    * ,via patching `fetch` & `XMLHttpRequest`, -- NATIVE http support -- to use -- NATIVE libraries
+    * , WITHOUT using `fetch` & `XMLHttpRequest`, -- helper methods -- for -- NATIVE http requests 
+  * bundled with `@capacitor/core`
 
 ## Configuration
 
+* TODO:
 By default, the patching of `window.fetch` and `XMLHttpRequest` to use native libraries is disabled.
 If you would like to enable this feature, modify the configuration below in the `capacitor.config` file.
 
@@ -656,7 +661,9 @@ This Fetch API interface allows you to perform various actions on HTTP request a
 
 Construct a type with a set of properties K of type T
 
-<code>{ [P in K]: T; }</code>
+<code>{
+ [P in K]: T;
+ }</code>
 
 
 #### RequestMode
